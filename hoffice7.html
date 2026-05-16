@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hudson's|HomeOffice</title>
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="css/sof.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+  <div id="preloader">
+
+  </div>
+  <script>
+    var loader = document.getElementById("preloader");
+  
+    window.addEventListener("load", function(){
+      loader.style.display = "none";
+    })
+  </script>
+    <div class="hf7">
+        <div class="colooor">
+        <!--Start of nav-->
+        <nav class="navbar">
+          <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <h2>Hudson Furnishing</h2>
+    <br><br>
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="INDEX.html">Home</a>
+    <a href="ABOUT.html" >About</a>
+    <a href="contact.html" >Contact</a>
+    <a href="livingroom.html" >Living Room</a>
+    <a href="BEDROOM.html" >Bed Room</a>
+    <a href="dinning.html" >Dining Room</a>
+    <a href="homeoffice.html" >Home Office </a>
+    <a href="outdoor.html" >Out Door </a>
+    <a href="faq.html" >F.A.Q </a>
+    <a><img src="https://counter2.optistats.ovh/private/freecounterstat.php?c=hbkbbbmj3b8fmrqznxlswgpnc44l5t6x" border="0" ></a>
+
+  </div>
+        <a class="openbtn" onclick="openNav()"><img src="css/menu.png" alt=""></a>
+          <div class="jj"><img src="css/loof-removebg-preview.png" alt=""></div>
+          <div class="nav-img">
+            <img src="css/search.png" alt="">
+            <img src="css/heart.png" alt="">
+          </div>
+      </nav>
+       <script>
+        const nav = document.querySelector('.navbar')
+        window.addEventListener('scroll', fixNav)
+  
+      function fixNav() {
+      if(window.scrollY > 90) {
+          nav.classList.add('active')
+      } else {
+          nav.classList.remove('active')
+      }
+  }
+  </script>
+  <script>
+    function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+     }
+     function closeNav() {
+     document.getElementById("sidebar").style.width = "0";
+     }
+    </script>
+        <!--end of nav-->
+        <div class="hdsn">
+        <h1 class="husdon">Hudson Furnishing</h1>
+        <br><br>
+        <h3 class="hudson">Wooden bench</h3>
+        <br>
+        <br>
+        <a>Shop Now</a>
+        </div>
+    </div>
+    </div>
+
+
+
+<div class="bd-c">
+  <div class="hf-i7"></div>
+  <h3>bench</h3> <h2>  $400/-</h2>
+
+  <div class="bd-i2">
+   <h1>ABOUT</h1> 
+   <br><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, blanditiis. Minima iusto assumenda dolorem sunt? Ipsam repudiandae, earum obcaecati veritatis fugiat numquam officia quod tempore eligendi ducimus. Maxime, voluptas facere!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla earum in provident reiciendis cupiditate nesciunt omnis explicabo . Quidem deleniti, commodi fugit nulla reiciendis nihil facere earum distinctio. Doloribus.</p>
+    
+    <br>
+    <p class="price">$400/-</p>
+    <br>
+    <h1>Select Color</h1>
+    <br>
+    <label class="checkbox-btn">
+      <label for="checkbox"></label>
+      <input id="checkbox" type="checkbox">
+      <span class="checkmark"></span><h4 class="tt">Black</h4>
+  </label>
+  <br>
+  <label class="checkbox-btn">
+    <label for="checkbox"></label>
+    <input id="checkbox" type="checkbox">
+    <span class="checkmark"></span><h4 class="tt">Brown</h4>
+</label>
+<br>
+<button class="now" onclick="openPopup()" type="submit">
+ OrderNow
+</button>
+<button class="btt" onclick="openPopup()">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"></path>
+  </svg>
+  Add To Favourite
+</button>
+<div class="popup" id="popup">
+  <br>
+  <h5 class="reg">REGISTRATION</h5>
+  <br><br><br><br>
+  <input type="text" name="name" placeholder=" First Name" class="nme">
+  <input type="text" name="name" placeholder=" Last Name" class="nme">
+  <br><br>
+  <input type="email" name="email" placeholder=" Email" class="imp">
+  <br><br><br>
+  <input type="password" name=" password" placeholder=" Password" class="imp">
+ 
+  <button type="button" onclick="closePopup()">Create Account</button>
+ 
+  <h1 class="or">OR</h1>
+  
+  <button class="but" onclick="closePopup()">
+    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262">
+    <path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"></path>
+    <path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"></path>
+    <path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"></path>
+    <path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"></path>
+  </svg>
+      Continue with Google
+  </button>
+</div>
+  </div>
+</div>
+
+<script>
+  let popup = document.getElementById("popup");
+  function openPopup(){
+    popup.classList.add("open-popup");
+  }
+  function closePopup(){
+    popup.classList.remove("open-popup");
+  }
+</script>
+
+
+<!--start of footer-->
+<footer>
+  <div class="content">
+    <div class="top">
+      <div class="logo-details">
+        <span class="logo_name">Hudson Furnishing</span>
+      </div>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="link-boxes">
+      <ul class="box">
+        <li class="link_name">Company</li>
+        <li><a href="INDEX.html">Home</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="porject.html">About us</a></li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Services</li>
+        <li><a href="#">Furniture Repair</a></li>
+        <li><a href="#">Home Delivery</a></li>
+        <li><a href="#">Online Shoping</a></li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Account</li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Your account</a></li>
+        <li><a href="#">Track order</a></li>
+        <li><a href="#">Purchase</a></li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Product</li>
+        <li><a href="BEDROOM.html">Bed Room</a></li>
+        <li><a href="livingroom.html">Living Room</a></li>
+        <li><a href="dinning.html">Dining Room</a></li>
+        <li><a href="homeoffice.html">Home OFFICE</a></li>
+        <li><a href="outdoor.html">Out Door</a></li>
+      </ul>
+      <ul class="box input-box">
+        <li class="link_name">Login</li>
+        <li><input type="text" placeholder="Enter your email"></li>
+        <li><input type="button" value="Login"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom-details">
+    <div class="bottom_text">
+      <span class="copyright_text">Copyright © 2023 <a href="#">Hudson Furnishing.</a>All rights reserved</span>
+      <span class="policy_terms">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & condition</a>
+      </span>
+    </div>
+  </div>
+</footer>
+<!--end of footer-->
+</body>
+</html>

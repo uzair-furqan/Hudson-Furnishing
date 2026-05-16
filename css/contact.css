@@ -1,0 +1,135 @@
+*{margin: 0;
+padding: 0;}
+
+.main{background-color:#794400;
+    width: 100%;
+height: 670px;}
+.box1{width: 35%;
+height: 530px;
+background-color: white;
+float: left;
+margin-top: 60px;
+margin-left: 100px;
+outline-style: double;
+outline-color: white;
+border-radius: 30px;
+}
+::placeholder{
+    color: #794400;
+}
+.box2{width: 40%;
+    height: 350px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 80px;
+    box-shadow: 30px;
+    }
+    h1{font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+    color: #794400;
+font-weight: bold;}
+input{border-radius:15px;
+width: 370px;
+height: 30px;
+text-align: center;
+font-size: 15px;
+text-decoration-color: #794400;
+padding: 3px;
+text-decoration-line: overline; 
+border-color: #794400;
+text-overflow: clip;
+color: #794400;
+}
+.cont
+{
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #794400;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+label{font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight : bold;
+color: #794400;
+}
+.mess{height: 100px;}
+button{width: 150px;
+height: 40px;
+background-color: #794400;
+color: white;
+box-shadow: 50px;
+border-radius: 20px;
+font-size: 15px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+}
+.img1{outline-style: double;
+outline-color: white;}
+h1:hover{color: #ffffff;}
+i{font-size: 25px;
+}
+#p:hover{color:#794400 ;}
+#m:hover{color: #794400;}
+::placeholder{font-size: 18px;}
+#l:hover{color: #794400;}
+#g:hover{color:#794400;}
+button:hover{color: black;
+background-color: white;}
+button::placeholder{font-size: 20px;}
+.main1{width: 100%;
+height:100vh;
+background-image: url(indoors-g40bdf395f_1920.jpg);
+background-repeat: no-repeat;
+background-size: cover;}
+.color{width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background-color: rgb(0, 0, 0, 0.4);}
+.conten{background-color: transparent;}
+.conten a{position: relative;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: white; 
+margin-top: 80px;
+color: white;
+font-size: 23px;
+font-weight: bold;
+transition: all 0.3s ease-in-out;}
+.conten a:hover{background-color: #794400;
+    border: none;
+font-size: 28px;}
+.conten p{
+    color: white; 
+margin-top: 40px;
+color: white;
+font-size: 80px;
+font-weight: bold;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+    background-color: transparent;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: #794400;
+    width: 8px;
+    height: 60px;
+    border-radius: 30px;
+
+  }
